@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-17T04:08:28.981Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="eBBVFsefQClQmvwPfj51" version="21.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-17T04:10:15.884Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="SVXnyaulSMS7Vdfzvpl_" version="21.1.8" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="1434" dy="1646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -820,8 +820,8 @@
         <mxCell id="NGx8hzoizXmu8q-xxpEj-1" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;BackendRuntime&lt;/li&gt;&lt;ul&gt;&lt;li&gt;configuration sql&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;web-content&lt;/li&gt;&lt;ul&gt;&lt;li&gt;FrontendRuntime&lt;/li&gt;&lt;li&gt;assets&lt;/li&gt;&lt;ul&gt;&lt;li&gt;assets.js&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;pages&lt;/li&gt;&lt;ul&gt;&lt;li&gt;pageA.js&lt;/li&gt;&lt;li&gt;I18n.js&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=#E1EAF5;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;align=left;" vertex="1" parent="1">
           <mxGeometry x="530" y="2190" width="180" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="NGx8hzoizXmu8q-xxpEj-2" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Docker file&lt;/li&gt;&lt;li&gt;K8s config&lt;/li&gt;&lt;li&gt;OSS(Object Storage Service)&lt;br&gt;&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;LocalFile&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Cloud&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=#D4E1F5;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
-          <mxGeometry x="230" y="2080" width="200" height="110" as="geometry" />
+        <mxCell id="NGx8hzoizXmu8q-xxpEj-2" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Docker file&lt;/li&gt;&lt;li&gt;K8s config&lt;/li&gt;&lt;li&gt;config data(sql:app,module..)&lt;/li&gt;&lt;li&gt;OSS(Object Storage Service)&lt;br&gt;&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;LocalFile&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Cloud&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=#D4E1F5;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="230" y="2080" width="200" height="160" as="geometry" />
         </mxCell>
         <mxCell id="NGx8hzoizXmu8q-xxpEj-3" value="Export" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
