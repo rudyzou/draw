@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-17T01:23:06.261Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="SWbRa5SSTJhESJlc1uRy" version="21.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-17T01:58:55.941Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="7E2PS77yZoRuGfU4Db61" version="21.1.8" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="1434" dy="1646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -507,7 +507,7 @@
         <mxCell id="aiHX-xgp03A9afXReRbh-114" value="0..n" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" parent="aiHX-xgp03A9afXReRbh-112" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DTeephk2-nTVErUMiOyv-3" value="+ authCode: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="aiHX-xgp03A9afXReRbh-110">
+        <mxCell id="DTeephk2-nTVErUMiOyv-3" value="+ authCode: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="aiHX-xgp03A9afXReRbh-110" vertex="1">
           <mxGeometry y="52" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="aiHX-xgp03A9afXReRbh-115" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=block;endFill=0;" parent="1" edge="1">
@@ -784,38 +784,41 @@
         <mxCell id="aiHX-xgp03A9afXReRbh-193" value="0..n" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" parent="aiHX-xgp03A9afXReRbh-191" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DTeephk2-nTVErUMiOyv-24" value="Create App" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DTeephk2-nTVErUMiOyv-24" value="Create App" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="1780" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DTeephk2-nTVErUMiOyv-25" value="Configuration" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DTeephk2-nTVErUMiOyv-25" value="Configuration" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="1850" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DTeephk2-nTVErUMiOyv-26" value="Create Page" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DTeephk2-nTVErUMiOyv-26" value="Create Page" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="1920" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DTeephk2-nTVErUMiOyv-27" value="Export" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="DTeephk2-nTVErUMiOyv-27" value="Export" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="440" y="1879.5" as="sourcePoint" />
             <mxPoint x="540" y="1880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DTeephk2-nTVErUMiOyv-28" value="Deploy Outputs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DTeephk2-nTVErUMiOyv-28" value="Deploy Outputs" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="560" y="1890" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DTeephk2-nTVErUMiOyv-29" value="Docker Image" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DTeephk2-nTVErUMiOyv-29" value="Docker Image" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="560" y="1810" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DTeephk2-nTVErUMiOyv-30" value="Deploy" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="DTeephk2-nTVErUMiOyv-30" value="Deploy" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="718.5" y="1879.5" as="sourcePoint" />
             <mxPoint x="818.5" y="1880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DTeephk2-nTVErUMiOyv-31" value="K8s" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DTeephk2-nTVErUMiOyv-31" value="K8s" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="847" y="1810" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DTeephk2-nTVErUMiOyv-32" value="Web Container" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DTeephk2-nTVErUMiOyv-32" value="Web Container" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="847" y="1880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NGx8hzoizXmu8q-xxpEj-1" value="&lt;ul&gt;&lt;li&gt;assets&lt;/li&gt;&lt;ul&gt;&lt;li&gt;assets.js&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;pages&lt;/li&gt;&lt;ul&gt;&lt;li&gt;pageA.js&lt;/li&gt;&lt;li&gt;I18n.js&lt;/li&gt;&lt;li&gt;service.js&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=#E1EAF5;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;align=left;" vertex="1" parent="1">
+          <mxGeometry x="560" y="2040" width="150" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
