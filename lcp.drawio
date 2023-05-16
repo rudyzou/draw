@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-16T15:40:17.705Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="bCNZ2mBC1Wp6XPw5MI_Q" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-16T15:46:09.098Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="SsbqVu1ov0oR3W6a67UA" version="21.2.1" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="2693" dy="1876" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -1170,7 +1170,7 @@
         <mxCell id="0i7GG34IuzNg3CLDuCly-101" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="0i7GG34IuzNg3CLDuCly-76">
           <mxGeometry x="60" y="199.89" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="0i7GG34IuzNg3CLDuCly-102" value="&amp;nbsp;把appConfig填入LocalStorage&lt;br&gt;（appkey=appName_evn, appConfigKey=$(appkey)）" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="0i7GG34IuzNg3CLDuCly-101" parent="0i7GG34IuzNg3CLDuCly-76">
+        <mxCell id="0i7GG34IuzNg3CLDuCly-102" value="&amp;nbsp;把appConfig填入GlobalStorage&lt;br&gt;（appkey=appName_evn, appConfigKey=$(appkey)）" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="0i7GG34IuzNg3CLDuCly-101" parent="0i7GG34IuzNg3CLDuCly-76">
           <mxGeometry x="-0.0065" relative="1" as="geometry">
             <mxPoint x="65" y="179.89" as="sourcePoint" />
             <Array as="points">
