@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-17T13:38:25.613Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="7vFYoRu-GKGuPiwQSWzU" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-17T14:06:11.440Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="CCN1FZ3ehNZqCR2JxS83" version="21.2.1" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="2693" dy="1876" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -1247,7 +1247,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0i7GG34IuzNg3CLDuCly-108" value="页面在请求后端api接口时， header 必须携带 applcationId，env请求头" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="305" y="2620" width="110" height="95" as="geometry" />
+          <mxGeometry x="305" y="2695" width="110" height="95" as="geometry" />
         </mxCell>
         <mxCell id="0i7GG34IuzNg3CLDuCly-109" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="0i7GG34IuzNg3CLDuCly-108">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -1307,6 +1307,102 @@
             <mxPoint x="159.5" y="3299.9955555555557" as="sourcePoint" />
             <mxPoint x="462.5" y="3300.4355555555558" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="0i7GG34IuzNg3CLDuCly-124" value="Assets" style="childLayout=tableLayout;recursiveResize=0;strokeColor=#98bf21;fillColor=#A7C942;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="2820" width="432.5" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="0i7GG34IuzNg3CLDuCly-125" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" vertex="1" parent="0i7GG34IuzNg3CLDuCly-124">
+          <mxGeometry width="432.5" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="0i7GG34IuzNg3CLDuCly-126" value="接口" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#A7C942;align=center;fontStyle=1;fontColor=#FFFFFF;html=1;" vertex="1" parent="0i7GG34IuzNg3CLDuCly-125">
+          <mxGeometry width="93" height="33" as="geometry">
+            <mxRectangle width="93" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0i7GG34IuzNg3CLDuCly-127" value="url" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#A7C942;align=center;fontStyle=1;fontColor=#FFFFFF;html=1;" vertex="1" parent="0i7GG34IuzNg3CLDuCly-125">
+          <mxGeometry x="93" width="94" height="33" as="geometry">
+            <mxRectangle width="94" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0i7GG34IuzNg3CLDuCly-128" value="描述" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#A7C942;align=center;fontStyle=1;fontColor=#FFFFFF;html=1;" vertex="1" parent="0i7GG34IuzNg3CLDuCly-125">
+          <mxGeometry x="187" width="246" height="33" as="geometry">
+            <mxRectangle width="246" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0i7GG34IuzNg3CLDuCly-129" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" vertex="1" parent="0i7GG34IuzNg3CLDuCly-124">
+          <mxGeometry y="33" width="432.5" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="0i7GG34IuzNg3CLDuCly-130" value="获取appConfig" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="0i7GG34IuzNg3CLDuCly-129">
+          <mxGeometry width="93" height="32" as="geometry">
+            <mxRectangle width="93" height="32" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0i7GG34IuzNg3CLDuCly-131" value="app/config" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="0i7GG34IuzNg3CLDuCly-129">
+          <mxGeometry x="93" width="94" height="32" as="geometry">
+            <mxRectangle width="94" height="32" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0i7GG34IuzNg3CLDuCly-132" value="获取appConfig，无限权限校验" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="0i7GG34IuzNg3CLDuCly-129">
+          <mxGeometry x="187" width="246" height="32" as="geometry">
+            <mxRectangle width="246" height="32" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0i7GG34IuzNg3CLDuCly-133" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#EAF2D3;" vertex="1" parent="0i7GG34IuzNg3CLDuCly-124">
+          <mxGeometry y="65" width="432.5" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="0i7GG34IuzNg3CLDuCly-134" value="login" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" vertex="1" parent="0i7GG34IuzNg3CLDuCly-133">
+          <mxGeometry width="93" height="31" as="geometry">
+            <mxRectangle width="93" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0i7GG34IuzNg3CLDuCly-135" value="/login" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" vertex="1" parent="0i7GG34IuzNg3CLDuCly-133">
+          <mxGeometry x="93" width="94" height="31" as="geometry">
+            <mxRectangle width="94" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0i7GG34IuzNg3CLDuCly-136" value="登录，返回token信息" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" vertex="1" parent="0i7GG34IuzNg3CLDuCly-133">
+          <mxGeometry x="187" width="246" height="31" as="geometry">
+            <mxRectangle width="246" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0i7GG34IuzNg3CLDuCly-137" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" vertex="1" parent="0i7GG34IuzNg3CLDuCly-124">
+          <mxGeometry y="96" width="432.5" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="0i7GG34IuzNg3CLDuCly-138" value="getCurrentUser" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="0i7GG34IuzNg3CLDuCly-137">
+          <mxGeometry width="93" height="33" as="geometry">
+            <mxRectangle width="93" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0i7GG34IuzNg3CLDuCly-139" value="/currentUser" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="0i7GG34IuzNg3CLDuCly-137">
+          <mxGeometry x="93" width="94" height="33" as="geometry">
+            <mxRectangle width="94" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0i7GG34IuzNg3CLDuCly-140" value="根据token，获取登录用户信息" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="0i7GG34IuzNg3CLDuCly-137">
+          <mxGeometry x="187" width="246" height="33" as="geometry">
+            <mxRectangle width="246" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0i7GG34IuzNg3CLDuCly-141" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#EAF2D3;" vertex="1" parent="0i7GG34IuzNg3CLDuCly-124">
+          <mxGeometry y="129" width="432.5" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="0i7GG34IuzNg3CLDuCly-142" value="app 要校验applicationID和env" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" vertex="1" parent="0i7GG34IuzNg3CLDuCly-141">
+          <mxGeometry width="93" height="61" as="geometry">
+            <mxRectangle width="93" height="61" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0i7GG34IuzNg3CLDuCly-143" value="" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" vertex="1" parent="0i7GG34IuzNg3CLDuCly-141">
+          <mxGeometry x="93" width="94" height="61" as="geometry">
+            <mxRectangle width="94" height="61" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0i7GG34IuzNg3CLDuCly-144" value="需要在入口工程做interceptor" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" vertex="1" parent="0i7GG34IuzNg3CLDuCly-141">
+          <mxGeometry x="187" width="246" height="61" as="geometry">
+            <mxRectangle width="246" height="61" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0i7GG34IuzNg3CLDuCly-145" value="&lt;h1&gt;登录 scenario&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="2630" width="190" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
